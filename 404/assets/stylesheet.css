@@ -1,0 +1,29 @@
+.wrapper{
+    min-height: 100vh;
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.p-404__error {
+    background-color: #fff;
+    flex: none;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin: 0 24px 0;
+    padding: 30px;
+    width: 600px;
+    max-width: calc(100% - 48px);
+    border-radius: 10px;
+    text-align: center;
+}
+.p-404__error h1{
+    font-size: 60px;
+    font-weight: 700;
+    margin: 0;
+
+}
